@@ -1,0 +1,40 @@
+
+Test 0 (create_music.sh sample.mp3 created_music;id3 -l created_music/*/*.mp3|grep -v Quiet) - failed (errors)
+Your program produced these errors:
+mkdir: cannot create directory \u2018created_music/Triple J Hottest 100, 1993\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/1 - Asshole - Denis Leary.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/2 - Creep - Radiohead.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/3 - Linger - The Cranberries.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/4 - No Rain - Blind Melon.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/5 - Cannonball - The Breeders.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/6 - Killing in the Name - Rage Against the Machine.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/7 - Lemon - U2.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/8 - Go - Pearl Jam.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/9 - The Honeymoon Is Over - The Cruel Sea.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1993/10 - Stone Me Into the Groove - Atomic Swing.mp3\u2019: No such file or directory
+mkdir: cannot create directory \u2018created_music/Triple J Hottest 100, 1994\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/1 - Zombie - The Cranberries.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/2 - Closer - Nine Inch Nails.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/3 - Self Esteem - The Offspring.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/4 - Come Out and Play - The Offspring.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/5 - Tomorrow - Silverchair.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/6 - Seether - Veruca Salt.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/7 - About a Girl - Nirvana.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/8 - Coma - Max Sharam.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/9 - If I Only Knew - Tom Jones.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1994/10 - Dead Eyes Opened - Severed Heads.mp3\u2019: No such file or directory
+mkdir: cannot create directory \u2018created_music/Triple J Hottest 100, 1995\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/1 - Wonderwall - Oasis.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/2 - Bullet with Butterfly Wings - The Smashing Pumpkins.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/3 - Gangsta's Paradise - Coolio.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/4 - Kitty - The Presidents of the United States of America.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/5 - It's Oh So Quiet - Bj\xf6rk.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/6 - Heroin Girl - Everclear.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/7 - Apartment - Custard.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/8 - Where the Wild Roses Grow - Nick Cave and the Bad Seeds and Kylie Minogue.mp3\u2019: No such file or directory
+cp: cannot create regular file \u2018created_music/Triple J Hottest 100, 1995/9 - (He'll Never Be An) Ol' Man River - TISM.mp3\u2019: No such file or directory
+...
+
+You can reproduce this test by executing these commands:
+create_music.sh sample.mp3 created_music;id3 -l created_music/*/*.mp3|grep -v Quiet
+0 tests passed 1 tests failed
